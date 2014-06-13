@@ -1,0 +1,32 @@
+
+
+#dlspb-portfolio-banner-meta TABLE {
+    text-align: center;
+}
+#dlspb-portfolio-banner-meta TABLE,
+#dlspb-portfolio-banner-meta TABLE INPUT[type="text"] {
+    width: 100%;
+}
+#dlspb-portfolio-banner-meta .dlsmb-field-type-image {
+    margin: 0 auto;
+}
+
+.dlspb-settings-table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.dlspb-settings-table TH,
+.dlspb-settings-table TD {
+    padding: 2px 4px;
+}
+.dlspb-settings-table INPUT[type="text"] {
+    width: 100%;
+}
+
+.dlspb-settings-row-alert .dlspb-settings-col-dlspb_taxonomies-slug INPUT {
+    border: 1px solid #dd3d36;
+}
+
+#icon-edit.icon32-posts-dlspb-portfolio {
+    background: transparent url('../images/icon-workarea.png') center center no-repeat;
+}
