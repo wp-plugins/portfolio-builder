@@ -1,0 +1,83 @@
+.dlsmb-preview-image IMG {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    display: block;
+}
+.dlsmb-image-wrap {
+    position: relative;
+    display: inline-block;
+}
+.dlsmb-remove-image {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+.dlsmb-ajax-loading {
+    display: none;
+    vertical-align: middle;
+}
+.dlsmb-field {
+    margin: 0.6em 0;
+}
+.dlsmb-field.dlsmb-field-type-image {
+    margin: 0;
+}
+.dlsmb-field LABEL.dlsmb-main-label {
+    display: block;
+}
+.dlsmb-field LABEL.dlsmb-checkbox {
+    display: inline;
+}
+.dlsmb-field-type-repeater TABLE TBODY TR TD {
+    border-bottom: 1px solid #DFDFDF;
+    padding: 10px 0;
+}
+.dlsmb-field-type-repeater TABLE TBODY TR:first-child TD {
+    padding-top: 0;
+}
+.dlsmb-field-type-repeater TABLE TBODY TR:last-child TD {
+    border-bottom: 0;
+}
+
+.dlsmb-field-type-repeater  TD.dlsmb-sort {
+    background: transparent url("./icon-drag-y.png") no-repeat scroll left center;
+}
+.dlsmb-field-type-repeater  .dlsmb-sort {
+    width: 16px;
+    min-height: 20px;
+}
+.dlsmb-field-type-repeater  TBODY TR:hover {
+    cursor: move;
+}
+.dlsmb-field-type-repeater  TBODY TR.ui-sortable-helper{
+    cursor: move;
+}
+
+/*** Add/Remove ***/
+.dlsmb-js-add,
+.dlsmb-js-remove {
+    display: inline-block;
+    border: 2px solid #fff;
+    color: #fff;
+    width: 1.4em;
+    height: 1.4em;
+    line-height: 1.3em;
+    text-align: center;
+    text-decoration: none;
+    -webkit-border-radius: 999em;
+    -moz-border-radius: 999em;
+    border-radius: 999em;
+}
+.dlsmb-js-add {
+    background-color: #6f9f44;
+}
+.dlsmb-js-remove {
+    background-color: #bf212e;
+}
+.dlsmb-js-add:hover {
+    background-color: #9bdd5e;
+    color: #fff;
+}
+.dlsmb-js-remove:hover {
+    background-color: #ff2b3b;
+    color: #fff;
+}
