@@ -206,3 +206,38 @@ UL.dlspb-3col LI:nth-child(3n) {
     margin: 0;
     padding: 0;
 }
+
+
+/***** Alternative Sizes *****/
+@media (max-width: 643px) {
+
+    /* Change 3col to 2col */
+    UL.dlspb-3col LI {
+        width: 49%;
+    }
+    UL.dlspb-3col LI:nth-child(odd) {
+        clear: left;
+    }
+    UL.dlspb-3col LI:nth-child(even) {
+        margin-right: 0;
+    }
+    UL.dlspb-3col LI:nth-child(3n+1) {
+        clear: none;
+    }
+    UL.dlspb-3col LI:nth-child(3n) {
+        margin-right: 2%;
+    }
+
+}
+/***** Mobile Devices *****/
+@media (max-width: 359px) {
+
+    UL.dlspb-2col LI,
+    UL.dlspb-3col LI {
+        clear: left;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+
+}

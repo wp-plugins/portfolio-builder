@@ -13,6 +13,10 @@ Flexible portfolio management
 
 Portfolio Builder is a flexible portfolio management tool.
 
+Download the Pro version with even more features:
+[http://www.dlssoftwarestudios.com/downloads/portfolio-builder-wordpress-plugin/](http://www.dlssoftwarestudios.com/downloads/portfolio-builder-wordpress-plugin/)
+
+
 = Features =
 
 * 1 column, 2 column and 3 column layout options
