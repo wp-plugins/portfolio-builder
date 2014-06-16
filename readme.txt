@@ -17,7 +17,7 @@ Portfolio Builder is a flexible portfolio management tool.
 
 * 1 column, 2 column and 3 column layout options
 * Create your own category such as "Clients" or "Project Types" to classify your portfolio items as you need
-* Set your custom category to be filterable to use like a search or relateable to display linked projects in a "Realted Projects" tab on the details pages
+* Set your custom category to be filterable to use like a search or relatable to display linked projects in a "Related Projects" tab on the details pages
 * Responsive design
 
 
