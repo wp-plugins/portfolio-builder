@@ -2,7 +2,7 @@
 Contributors: dlsstudios
 Tags: portfolio, design, marketing, filter, filtering, relateable, categories, responsive
 Requires at least: 3.3
-Tested up to: 3.9.1
+Tested up to: 4.0
 Stable tag: 1.0.0
 License: GPLv2 or later
 
